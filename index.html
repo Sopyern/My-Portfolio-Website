@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakos||media</title>
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<style>
+    header{
+        background-image: url("img/plain3.png"),url("img/Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 695px;
+    }
+    .sidenav{
+        background-color: #050416;
+    }
+    .sidenav li a{
+        color: #c3a709;
+    }
+    .sidenav li a:hover{
+        background-color: #c3a709;
+        color: #050416;
+    }
+    .selected{
+        font-family: Chopsic;
+        border-bottom: 2px solid #c3a709;
+        font-size: 14px;
+    }
+    .nav-wrapper{
+        background-color: #050416;
+    }
+
+    ul{
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    ul li a:hover{
+        font-family: Chopsic;
+        border-bottom: 2px solid #c3a709;
+        font-size: 14px;
+    }
+    ul li a{
+        font-size: 16px;
+    }
+    
+    /*social icons*/
+    .social-icons ul{
+        margin-top: 10px;
+    }
+    .social-icons ul li{
+        display: inline;
+        margin: 0 15px;
+        color: #fff;
+        
+    }
+    .social-icons a:hover{
+        color: #c3a709;
+    }
+    .social-icons ul li a{
+        font-size: 30px;
+        color: #fff;
+        padding: 4px;
+        text-decoration: none;
+        border-radius: 30px;
+      
+        
+    }
+    
+    
+    .text-me{
+        color: rgba(255, 255, 255, 0.705);
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    #text-me2{
+        color: rgba(255, 255, 255, 0.705);
+        font-size: 20px;
+    }
+    #text-me3{
+        color: rgba(255, 255, 255, 0.705);
+        font-size: 20px;
+    }
+    #bakos-name{
+        text-align: center;
+        font-family: BabaPro;
+        color: #c3a709;
+    }
+    img#my-image{
+        border-radius: 50%;
+        text-align: center;
+        width: 200px;
+        position: relative;
+        top: 0px;
+        left: 50%;
+        margin-left: -100px;
+    }
+    image-text{
+        text-align: center;
+    }
+    .btn{
+        
+        background-color: #c3a709;
+        position: relative;
+        top: 0px;
+        left: 50%;
+        margin-left: -62px;
+    }
+    .btn a{
+        color: #050416;
+    }
+    .btn:hover{
+        background: #050416;
+        color: #c3a709;
+    }
+    .btn a:hover{
+        color: #c3a709;
+    }
+    .footer-copyright{
+        background-color: #050416;
+        color: #c3a7097c;
+    }
+
+</style>
+<body>
+    <header>
+        <nav class="nav-wrapper">
+            <div class="container">
+                <div class="brand-logo"><a href="index.html"><img src="img/logo2b.png" alt="logo"></a></div>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </a>
+              <ul id="nav" class="right hide-on-med-and-down">
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="Projects.html">Projects</a></li> 
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html"  class="disabled">Blog</a></li>
+            </ul>
+              
+              <ul class="sidenav" id="mobile-menu">
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+            
+          </nav>
+          
+          <div class="container text-me">
+            <div class="row">
+                <div class="col sm12 l6">
+                    <p>I'm a full stack web  developer, programmer,
+                         graphic designer and also an architect. 
+                         I'm always ready for all kind of design
+                        whether web, graphic or architectural. I do 
+                        freelancing work and you can hire me for any kind 
+                        of design mention above</p>
+                    <div class="social-icons ">
+                        <ul>
+                            <li><a href="facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="facebook"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="facebook"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="facebook"><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="image-text"class="col sm12 l6">
+                    
+                    <h1 id="bakos-name">BAKOS</h1>
+                    <p><img id="my-image"src="img/my_Image.jpg" alt="my picture"></p>
+                </div>
+            </div>   
+        </div>
+
+        <button class="btn"><i class="fa-fire"></i><a href="hot_designs.html"> HOT DESIGNS</a></button>
+        
+        <div class="container ">
+            <div class="row">
+                <div class="col sm12 l6 ">
+                    <p id="text-me2">Writing fassinating codes is my hobby, 
+                        the taste is AWESOME and most importanly
+                        doing something that always people appreciate.</p>
+                </div>
+
+                <div class="col sm12 l6">
+                    <p id="text-me3">The world of graphic design is different not because of
+                        difficulty but doing something different that not all people
+                        can do.</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-copyright"><div class="container center-align">&copy; 2021 Bakos </div></footer>
+    </header>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav(); 
+        });
+    </script>
+</body>
+</html>

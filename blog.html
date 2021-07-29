@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<style>
+    body{
+      background-color: #d1d0dfaf;
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .sidenav{
+        background-color: #050416;
+    }
+    .sidenav li a{
+        color: #c3a709;
+    }
+    .sidenav li a:hover{
+        background-color: #c3a709;
+        color: #050416;
+    }
+    .selected{
+        font-family: Chopsic;
+        border-bottom: 2px solid #c3a709;
+        font-size: 14px;
+    }
+    .nav-wrapper{
+        background-color: #050416;
+    }
+
+    ul{
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    ul li a:hover{
+        font-family: Chopsic;
+        border-bottom: 2px solid #c3a709;
+        font-size: 14px;
+    }
+    ul li a{
+        font-size: 16px;
+    }
+    
+    .footer-copyright{
+        text-align: center;
+        background-color: #080622;
+        color: #d3caa2a6;
+    }
+    /*body style here*/
+    p{
+        text-align: center;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.60);
+    }
+  
+    #my-picture img{
+        border-radius: 50%;
+        margin-top: 100px;
+    }
+    h3{
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="nav-wrapper">
+            <div class="container">
+                <div class="brand-logo"><a href="index.html"><img src="img/logo2b.png" alt="logo"></a></div>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Projects.html"  >Projects</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="blog.html" class="selected">Blog</a></li>
+                </ul>
+              
+                <ul class="sidenav" id="mobile-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Projects.html" >Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="blog.html" class="selected">Blog</a></li>
+                </ul>
+            </div>
+            
+          </nav>
+    </header>
+    
+    <div class="section">
+        <div class="container">
+            <h3>Check back later for resent Blogs...</h3>
+        </div>
+    <!--footer-->
+    <!-- <footer class="footer-copyright"><div class="container center-align">&copy; 2021 Bakos </div></footer> -->
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav(); 
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural</title>
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<style>
+    body{
+      background-color: #d1d0dfaf;
+      color: black;
+    }
+    .sidenav{
+        background-color: #050416;
+    }
+    .sidenav li a{
+        color: #c3a709;
+    }
+    .sidenav li a:hover{
+        background-color: #c3a709;
+        color: #050416;
+    }
+    .selected{
+        font-family: Chopsic;
+        border-bottom: 2px solid #c3a709;
+        font-size: 14px;
+    }
+    .nav-wrapper{
+        background-color: #050416;
+    }
+
+    ul{
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    ul li a:hover{
+        font-family: Chopsic;
+        border-bottom: 2px solid #c3a709;
+        font-size: 14px;
+    }
+    ul li a{
+        font-size: 16px;
+    }
+    
+    .footer-copyright{
+        text-align: center;
+        background-color: #080622;
+        color: #d3caa2a6;
+    }
+    .explanation-text{
+        color: rgb(26, 25, 25);
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .projects{
+        margin-left: 20px;
+        background-color: #050416;
+    }
+    .projects:hover{
+        background-color: #9391a8;
+    }
+    .projects a:hover{
+        color: #050416;
+        
+    }
+    .projects a{
+        color: #ffffff;
+    }
+    .selected-design{
+        background-color: #9391a8;
+    }
+
+</style>
+<body>
+    <header>
+        <nav class="nav-wrapper">
+            <div class="container">
+                <div class="brand-logo"><a href="index.html"><img src="img/logo2b.png" alt="logo"></a></div>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Projects.html"  class="selected">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+              
+              <ul class="sidenav" id="mobile-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Projects.html" class="selected">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    
+    <div class="section">
+       <div class="container">
+           <div class="row">
+               <div class="col s6 l6">
+                   <button class="btn projects "><a href="Projects.html">Web Projects</a></button>
+               </div>
+               <div class="col s6 l6">
+                <button class="btn projects selected-design"><a href="Architecture.html">Architectural</a></button>
+            </div>
+           </div>
+            <div class="row">
+               <div class="col s12 l6">
+               <div class="explanation-text right-align">Lumion render of a simple storey building 4-bed rooms with drive inn in a land of 100m x 100m.   </div>
+                </div>
+               <div class="col s12 l4">
+                   <div class="card">
+                       <div class="card-image">
+                           <img src="img/drivein.JPG" alt="loan calculator">
+                       </div>
+                       <div class="card-content">
+                           <span class="card-title center">Lumion Render</span>
+                       </div>
+                       <div class="card-action black"></div>
+                   </div>
+               </div>   
+           </div>
+           <div class="row">
+               <div class="col s12 l4">
+                   <div class="card">
+                       <div class="card-image">
+                           <img src="img/contemporary-landscape.JPG" alt="Contemporary">
+                       </div>
+                       <div class="card-content">
+                           <span class="card-title center">Contemporary</span>
+                       </div>
+                       <div class="card-action black"></div>
+                   </div>
+               </div>
+               <div class="col s12 l6">
+                <div class="explanation-text">Contemporary builing of 5-bed rooms flat with individual toilet in 25m x 15m of land.</div>
+               </div>
+           </div>
+            <div class="row">
+                <div class="col s12 l6">
+                    <div class="explanation-text right-align">Simple Lumion render of 5-bed rooms storey building in each with toilet in a land of 18m x 22m.</div>
+                 </div>
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/realistic.JPG" alt="loan calculator">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title center">Lumion Render</span>
+                        </div>
+                        <div class="card-action black"></div>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="row">
+               <div class="col s12 l4">
+                   <div class="card">
+                       <div class="card-image">
+                           <img src="img/whitestorey.JPG" alt="stop watch">
+                       </div>
+                       <div class="card-content">
+                           <div class="card-title center">
+                               <span>Enscape</span>
+                           </div>
+                       </div>
+                       <div class="card-action black"></div>
+                   </div>
+               </div>
+               <div class="col s12 l6">
+                <div class="explanation-text">Beautiful plain white render of Contemporary building using revit Enscape plugin</div>
+                 </div>
+            </div>
+
+        </div>
+        
+
+       </div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer-copyright"><div class="container center-align">&copy; 2021 Bakos </div></footer>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav(); 
+        });
+    </script>
+</body>
+</html>
