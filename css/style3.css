@@ -1,0 +1,134 @@
+/* Hot designs style */
+body {
+  background-color: #d1d0dfaf;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.sidenav {
+  background-color: #050416;
+}
+.sidenav li a {
+  color: #c3a709;
+}
+.sidenav li a:hover {
+  background-color: #c3a709;
+  color: #050416;
+}
+.selected {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-bottom: 2px solid #c3a709;
+  font-size: 14px;
+}
+.nav-wrapper {
+  background-color: #050416;
+}
+
+ul {
+  font-family: "Times New Roman", Times, serif;
+}
+ul li a:hover {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-bottom: 2px solid #c3a709;
+  font-size: 14px;
+}
+ul li a {
+  font-size: 16px;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: #706f67f8;
+}
+/*body style here*/
+p {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#my-picture img {
+  border-radius: 50%;
+  margin-top: 100px;
+}
+h3 {
+  text-align: center;
+}
+
+/* Project style */
+.explanation-text {
+  color: rgb(26, 25, 25);
+  margin-top: 20px;
+  font-size: 18px;
+}
+.projects {
+  margin-left: 20px;
+  background-color: #050416;
+}
+.projects:hover {
+  background-color: #9391a8;
+}
+.projects a:hover {
+  color: #050416;
+}
+.projects a {
+  color: #ffffff;
+}
+.selected-design {
+  background-color: #9391a8;
+}
+/* Contact page style */
+.card img {
+  position: relative;
+  top: 0;
+  left: 50%;
+  margin-left: -36px;
+}
+.container-fluid {
+  background-image: url("img/vcode.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+}
+div#fluid-text {
+  position: absolute;
+  text-align: center;
+  color: #10094b;
+  margin-top: 80px;
+  left: 50%;
+  margin-left: -250px;
+}
+#fluid-text p {
+  font-size: 24px;
+}
+.card-content p {
+  color: rgb(121, 116, 116);
+}
+@media screen and (min-width: 700px) {
+  .card {
+    margin-top: -50px;
+  }
+}
+
+/* Blog Style */
+
+.explanation-text {
+  color: rgb(26, 25, 25);
+  margin-top: 20px;
+  font-size: 18px;
+}
+.projects {
+  margin-left: 20px;
+  background-color: #050416;
+}
+.projects:hover {
+  background-color: #9391a8;
+}
+.projects a:hover {
+  color: #050416;
+}
+.projects a {
+  color: #ffffff;
+}
+.selected-design {
+  background-color: #9391a8;
+}
